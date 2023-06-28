@@ -77,9 +77,31 @@ a {
 
 
 .content-heading {
+    display: flex;
+    justify-content: center;
+    flex: 0;
     font-size: 36px;
     font-weight: bold;
     color: #1f2937;
+    padding: 60px 0 10px 0;
+}
+
+.content-subsection {
+    display: flex;
+    justify-content: space-around;
+    flex: 1;
+    padding: 60px 13%;
+}
+
+.content-subsection p {
+    width: 160px;
+    text-align: center;
+}
+
+.square {
+    padding: 80px;
+    border: 3px solid #3882f6;
+    border-radius: 12px;
 }
 
 
