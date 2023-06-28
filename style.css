@@ -1,10 +1,10 @@
 body {
-    background-color: #999;
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 100vw;
     margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 .header, .footer {
@@ -67,11 +67,40 @@ a {
     padding: 20px 0 130px 0;
 }
 
-.footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px 20% 20px 20%;
-    color: #e5e7eb;
+.left-side {
+    width: 400px;
+}
+
+.container{
+    background-color: #fff;
+}
+
+
+.content-heading {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+
+
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    padding: 30px 19%;
+}
+
+.underwrite {
+    font-size: 20px;
+    color: #1c1715;
+    text-align: right;
+    font-weight: bold;
+    padding-right: 5%;
+
 }
 
 button {
@@ -89,6 +118,11 @@ button {
     border: 3px solid #fff;
 }
 
-.left-side {
-    width: 400px;
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20% 50px 20%;
+    color: #e5e7eb;
 }
