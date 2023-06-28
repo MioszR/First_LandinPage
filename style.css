@@ -67,3 +67,19 @@ a {
     padding: 20px 20% 20px 20%;
     color: #e5e7eb;
 }
+
+button {
+    background-color: #3882f6;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px 28px;
+    font-weight: bold;
+    border: none;
+}
+
+.second_b {
+    border: 3px solid #fff;
+
+}
