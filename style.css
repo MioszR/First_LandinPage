@@ -59,7 +59,13 @@ a {
     padding: 20px 0;
 }
 
-
+.second_line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 20px 0 130px 0;
+}
 
 .footer {
     display: flex;
@@ -81,5 +87,8 @@ button {
 
 .second_b {
     border: 3px solid #fff;
+}
 
+.left-side {
+    width: 400px;
 }
