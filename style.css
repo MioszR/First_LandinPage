@@ -103,6 +103,18 @@ a {
 
 }
 
+.signup {
+    background-color: #3882f6;
+    display: flex;
+    color: #fff;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    border-radius: 20px;
+    margin: 5% 10%;
+}
+
 button {
     background-color: #3882f6;
     font-size: 18px;
@@ -116,6 +128,7 @@ button {
 
 .second_b {
     border: 3px solid #fff;
+
 }
 
 
